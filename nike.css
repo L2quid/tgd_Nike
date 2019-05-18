@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GyeonggiBatang';
+}
+
 html {
     background-color: #ff6600;
 }
@@ -12,7 +23,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background: url(logo.png) no-repeat;
+    background: url(logo1.png) no-repeat;
     background-size: auto 50px;
 }
 
