@@ -60,7 +60,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: " 명";
+    content: " 명 접속중";
     cursor: text;
 
 }
