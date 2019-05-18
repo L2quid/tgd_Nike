@@ -7,6 +7,7 @@
 
 * {
     font-family: 'GyeonggiBatang';
+    font-weight: 600;
 }
 
 html {
@@ -57,7 +58,7 @@ header #right-search-form > #right-search-btn:focus {
 header #header-bar > .row {
     border: 0px;
     border-radius: 10px 0px 10px 0px;
-    background: #ff9966;
+    background: #ff995675;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -97,6 +98,10 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: rgba(0, 0, 0, 0);
 }
 
+#main .menu-wrapper > a {
+    padding: 0.4em 1.4em 0.4em 0.7em;
+}
+
 #main .menu-wrapper > a > em {
     color: #ff9966;
 }
@@ -114,10 +119,12 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list #article-list-category > a {
     background: #ffe1c8;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background 1s;
 }
 
 #article-list #article-list-category > a:hover {
-    transition: background 1s;
     background: #ff6600;
 }
 
@@ -133,4 +140,29 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-right: 0px;
     border-bottom: 0px;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*글쓰기*/
+#article-content-wrapper > .header {
+    border-bottom: 2px solid #ff9966;
+    border-top: 0px;
+}
+
+#article-reply-area > .header h5 {
+    color: #ff9966;
+}
+
+.btn-outline-success {
+    color: #ff9966;
+    border-color: #ff9966;
+    transition: all 0.5s;
+}
+
+.btn-outline-success:hover {
+    color: #ffffff;
+    background-color: #ff9966;
+}
+
+a {
+    color: #ff9900;
 }
