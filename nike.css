@@ -1,0 +1,90 @@
+html {
+    background-color: #ff6600;
+}
+
+body {
+    height: auto !important;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 102, 0, 1) 100%);
+}
+
+/* 검색 창 */
+header #right-search-form > input[type='text'] {
+    border: 3px solid #ff9966;
+    transition: .25s;
+}
+
+header #right-search-form > input[type='text']:hover,
+header #right-search-form > input[type='text']:focus {
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+/* 검색 버튼 */
+header #right-search-form > #right-search-btn {
+    color: #ff6666;
+    transition: .25s;
+}
+
+header #right-search-form > #right-search-btn:hover,
+header #right-search-form > #right-search-btn:focus {
+    transform: scale(1.2);
+    transition: .25s;
+}
+
+header #header-bar > .row {
+    border: 0px;
+    border-radius: 10px 0px 10px 0px;
+    background: #ff9966;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #ff6600;
+
+}
+
+#main .menu-wrapper {
+    border-radius: 10px 0px 10px 0px;
+}
+
+#main .menu-wrapper > .header {
+    background: #ff9966;
+    border-radius: 10px 0px 0px 0px;
+}
+
+#main .menu-wrapper {
+    border: 0px;
+}
+
+#main .menu-wrapper .spacer {
+    background: rgba(0, 0, 0, 0);
+}
+
+#main .menu-wrapper > a > em {
+    color: #ff9966;
+}
+
+#main .menu-wrapper > a > i.fa.fa-square {
+    color: #ff9966;
+}
+
+#article-list #article-list-category {
+    border-bottom: 2px solid #ff9966;
+    background: #fff;
+    height: 40px;
+}
+
+#article-list #article-list-category > a {
+    background: #ffe1c8;
+    height: 38px;
+}
+
+#article-list #article-list-category > a:hover {
+    transition: background 1s;
+    background: #ff6600;
+}
+
+#article-list #article-option-area > #article-option-area-toggle-btn {
+    background: #ffffff;
+}
