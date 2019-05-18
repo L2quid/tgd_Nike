@@ -12,7 +12,7 @@
     font-weight: 600;
 }
 
-::selection {
+p::selection {
     color: #EA4D0F !important;
     background-color: #DCD8D2 !important;
 }
