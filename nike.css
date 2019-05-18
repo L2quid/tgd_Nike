@@ -174,17 +174,3 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list > .article-list-row > .item > .list-header > span {
     background-color: #ff9900;
 }
-
-/* go to top */
-#movetotop img {
-    display: none
-}
-
-#movetotop {
-    display: inline-block;
-    opacity: 1;
-    background: url("https://L2quid.github.io/tdg_Nike/nike-seeklogo");
-    width: 80px;
-    height: 80px;
-    background-size: contain;
-}
