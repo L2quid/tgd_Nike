@@ -14,7 +14,8 @@
 
 ::selection {
     color: #EA4D0F;
-    background-color: #DCD8D2;
+     !important;
+    background-color: #DCD8D2 !important;
 }
 
 html {
