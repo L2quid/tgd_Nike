@@ -8,13 +8,11 @@ body {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 102, 0, 1) 100%);
 }
 
-/*로고*/
 header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background: url(./logo.png) no-repeat;
-    /* url(로고 경로 입력) */
+    background: url(logo.png) no-repeat;
     background-size: auto 50px;
 }
 
@@ -22,7 +20,6 @@ header .row > div:nth-child(1) > a > img {
     display: none;
 }
 
-/* 검색 창 */
 header #right-search-form > input[type='text'] {
     border: 3px solid #ff9966;
     transition: .25s;
