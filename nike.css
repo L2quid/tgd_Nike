@@ -12,7 +12,7 @@
     font-weight: 600;
 }
 
-p::selection {
+::selection {
     color: #EA4D0F !important;
     background-color: #DCD8D2 !important;
 }
@@ -145,9 +145,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #main #main-content > div.frame {
-    border-right: 0px;
-    border-bottom: 0px;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #ff9966;
 }
 
 /*글쓰기*/
@@ -177,8 +176,84 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-top: 5px solid #ff9966;
 }
 
-/*리스트 */
+/* 게시글 추천 수 */
+#article-list > .article-list-row > .item > .list-header > span {
+    background: #ff9966;
+}
 
-#article-list > .article-list-row > .item > .list-header.v0 > span {
-    background-color: #ff9900;
+/* 게시글 추천 수 0 */
+#article-list > .article-list-row > .item > .list-header.v0 > span,
+#article-list > .article-list-row > .item > .list-header.v0 > span:hover {
+    color: #fff !important;
+    background-color: #ff9966 !important;
+}
+
+#article-list > .article-list-row {
+    border: none;
+    transition: 0.2s;
+}
+
+#article-list > .article-list-row:hover,
+#article-list > .article-list-row:focus {
+    background-color: lightpink;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+#article-list > .article-list-row.hot,
+#article-list > .article-list-row.notice {
+    animation-name: color_change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes color_change {
+    0% {
+        background-color: sandybrown;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: burlywood;
+    }
+
+    75% {
+        background-color: #ff9966;
+    }
+
+    100% {
+        background-color: darkgoldenrod;
+    }
+}
+
+#article-list > .article-list-row.hot:hover,
+#article-list > .article-list-row.hot:focus,
+#article-list > .article-list-row.notice:hover,
+#article-list > .article-list-row.notice:focus {
+    background-color: #ff9966;
+}
+
+#article-list > .article-list-row > .item > .list-header {
+    border-left: none;
+}
+
+.btn {
+    color: #ff9900;
+     !important;
+    background-color: #fff;
+     !important;
+    border-color: #ff9900;
+     !important;
+    transition: 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #000;
+    background-color: lightpink;
+    ;
 }
